@@ -4,7 +4,7 @@ require "libv8/version"
 Gem::Specification.new do |s|
   s.name        = "libv8"
   s.version     = Libv8::VERSION
-  s.platform    = Gem::Platform::local
+  s.platform    = Gem::Platform.local
   s.authors     = ["Charles Lowell"]
   s.email       = ["cowboyd@thefrontside.net"]
   s.homepage    = "http://github.com/cowboyd/libv8"
